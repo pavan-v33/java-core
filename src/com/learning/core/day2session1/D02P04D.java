@@ -23,6 +23,8 @@ public class D02P04D {
 		for (int i = start; i < nums.length; i++) {
 			combination[index] = nums[i];
 			combine(nums, i + 1, combination, index + 1);
+			
+			
 		}
 	}
 }
